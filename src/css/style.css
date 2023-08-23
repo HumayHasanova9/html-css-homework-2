@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width:  75%;
+    background-color: #ffcc19;
+    margin: auto;
+    border-radius: 15px;
+    color: #26282D;
+    padding: 50px 0 30px 0;
+}
+.title{
+    margin: 0 150px;
+}
+h2{
+    text-align: center;
+}
+h2:first-child{
+    font-size: 75px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 60px;
+    margin-bottom: 6px;
+}
+h2:nth-child(2){
+    font-size: 21px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+input{
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+form{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+    
+}
+label{
+    font-family: "Antarctican Headline", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+}
+input[type="button"]{
+    width: 150px;
+    font-weight: 700;
+}
+input[type="button"]{
+    background-color: #26282D;
+    color: #ffcc19;
+    font-weight: 900;
+}
+input[type="button"]:hover{
+    background-color: #fff;
+    color: #26282D;
+}
+
+.imgss{
+    position: absolute;
+}
+.imgss img{
+    width: 300px;
+}
+.imgss img:first-child{
+    margin-right: 550px;
+    margin-bottom: 130px;
+}
